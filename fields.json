@@ -1,569 +1,574 @@
 {
-  "slug": "salad-house-az",
+ "slug": "salad-house-az",
+ "brand": "Salad House",
+ "field_count": 195,
+ "franchiseFee": 40000,
+ "totalInvestmentMin": 303700,
+ "totalInvestmentMax": 750500,
+ "royaltyPercent": "6%",
+ "totalUnits": 21,
+ "openLocations": 21,
+ "corporateCity": "Westfield",
+ "corporateState": "NJ",
+ "corporateZip": "07092",
+ "corporateAddress": "133 Prospect Street, Suite 1, Westfield, NJ 07092",
+ "description": "Salad House is a fast-casual franchise serving fresh chopped salads, bowls, wraps and smoothies. Launched in 2011 in Millburn, New Jersey by CEO Joey Cioffi, the brand grew across New Jersey with 21 open locations including Brooklyn NY and Westchester County NY. The 2025 FDD reports average unit sales of $1.61M (n=11 reporting outlets, Item 19) and outlet growth from 5 to 20 franchised units over three years with zero closures (Item 20). Franchisees operate in a non-exclusive Designated Territory defined after site approval.",
+ "category": "Fast Casual Restaurants",
+ "websiteUrl": "https://www.thesaladhouse.com",
+ "yearFounded": 2011,
+ "fddYear": 2025,
+ "territoryDescription": "Non-exclusive Designated Territory defined after site approval; ~3-mile rural / ~7-block urban radius; franchisor reserves broad Reserved Rights. Item 12, FDD pp34-35.",
+ "item12": "non-exclusive",
+ "item20PinCount": 21,
+ "hq_source": "fdd-item-1: franchisor Salad House Franchising, LLC principal place of business = 133 Prospect Street, Suite 1, Westfield, New Jersey 07092 (Item 1 'The Franchisor'; also FDD cover contact block). Millburn NJ 07041 (343 Millburn Ave) is the original restaurant outlet (Item 20), not the franchisor HQ. Verified in salad-schema/fdd.txt lines 341-342 / item1-2.txt lines 11-12.",
+ "risk_score": 26,
+ "pins": [
+  {
+   "city": "Brooklyn",
+   "state": "NY",
+   "latitude": 41.3236395,
+   "longitude": -74.1870127
+  },
+  {
+   "city": "Cherry Hill",
+   "state": "NJ",
+   "latitude": 39.9348351,
+   "longitude": -75.0307264
+  },
+  {
+   "city": "Englewood",
+   "state": "NJ",
+   "latitude": 40.8929329,
+   "longitude": -73.9726508
+  },
+  {
+   "city": "Hackensack",
+   "state": "NJ",
+   "latitude": 40.8870781,
+   "longitude": -74.0410667
+  },
+  {
+   "city": "Livingston",
+   "state": "NJ",
+   "latitude": 40.7959335,
+   "longitude": -74.3148713
+  },
+  {
+   "city": "Manahawkin",
+   "state": "NJ",
+   "latitude": 39.690518,
+   "longitude": -74.2486427
+  },
+  {
+   "city": "Millburn",
+   "state": "NJ",
+   "latitude": 40.7244443,
+   "longitude": -74.3069069
+  },
+  {
+   "city": "Montclair",
+   "state": "NJ",
+   "latitude": 40.8164458,
+   "longitude": -74.2210643
+  },
+  {
+   "city": "Morristown",
+   "state": "NJ",
+   "latitude": 40.7970382,
+   "longitude": -74.4809868
+  },
+  {
+   "city": "Newark",
+   "state": "NJ",
+   "latitude": 40.735657,
+   "longitude": -74.1723667
+  },
+  {
+   "city": "New Brunswick",
+   "state": "NJ",
+   "latitude": 40.4936119,
+   "longitude": -74.4436416
+  },
+  {
+   "city": "Parsippany",
+   "state": "NJ",
+   "latitude": 40.8623835,
+   "longitude": -74.4032354
+  },
+  {
+   "city": "Red Bank",
+   "state": "NJ",
+   "latitude": 40.3470543,
+   "longitude": -74.0643065
+  },
+  {
+   "city": "Ridgewood",
+   "state": "NJ",
+   "latitude": 40.9796683,
+   "longitude": -74.1194403
+  },
+  {
+   "city": "Rutherford",
+   "state": "NJ",
+   "latitude": 40.826489,
+   "longitude": -74.1068091
+  },
+  {
+   "city": "Secaucus",
+   "state": "NJ",
+   "latitude": 40.7899291,
+   "longitude": -74.0566735
+  },
+  {
+   "city": "Sparta",
+   "state": "NJ",
+   "latitude": 41.0401567,
+   "longitude": -74.6310081
+  },
+  {
+   "city": "Toms River",
+   "state": "NJ",
+   "latitude": 39.9528389,
+   "longitude": -74.196741
+  },
+  {
+   "city": "Westfield",
+   "state": "NJ",
+   "latitude": 40.651726,
+   "longitude": -74.3483059
+  },
+  {
+   "city": "Westwood",
+   "state": "NJ",
+   "latitude": 40.9912087,
+   "longitude": -74.0326395
+  },
+  {
+   "city": "White Plains",
+   "state": "NY",
+   "latitude": 41.0339862,
+   "longitude": -73.7629097
+  }
+ ],
+ "fields": {
   "brand": "Salad House",
-  "field_count": 195,
-  "franchiseFee": 40000,
-  "totalInvestmentMin": 303700,
-  "totalInvestmentMax": 750500,
-  "royaltyPercent": "6%",
-  "totalUnits": 21,
-  "openLocations": 21,
-  "corporateCity": "Westfield",
-  "corporateState": "NJ",
-  "corporateZip": "07092",
-  "corporateAddress": "133 Prospect Street, Suite 1, Westfield, NJ 07092",
-  "description": "Salad House is a fast-casual franchise serving fresh chopped salads, bowls, wraps and smoothies. Launched in 2011 in Millburn, New Jersey by CEO Joey Cioffi, the brand grew across New Jersey with 21 open locations including Brooklyn NY and Westchester County NY. The 2025 FDD reports average unit sales of $1.61M (n=11 reporting outlets, Item 19) and outlet growth from 5 to 20 franchised units over three years with zero closures (Item 20). Franchisees operate in a non-exclusive Designated Territory defined after site approval.",
-  "category": "Fast Casual Restaurants",
-  "websiteUrl": "https://www.thesaladhouse.com",
-  "yearFounded": 2011,
-  "fddYear": 2025,
-  "territoryDescription": "Non-exclusive Designated Territory defined after site approval; ~3-mile rural / ~7-block urban radius; franchisor reserves broad Reserved Rights. Item 12, FDD pp34-35.",
-  "item12": "non-exclusive",
-  "item20PinCount": 21,
-  "hq_source": "fdd-item-1: franchisor Salad House Franchising, LLC principal place of business = 133 Prospect Street, Suite 1, Westfield, New Jersey 07092 (Item 1 'The Franchisor'; also FDD cover contact block). Millburn NJ 07041 (343 Millburn Ave) is the original restaurant outlet (Item 20), not the franchisor HQ. Verified in salad-schema/fdd.txt lines 341-342 / item1-2.txt lines 11-12.",
-  "risk_score": 26,
-  "pins": [
-    {
-      "city": "Brooklyn",
-      "state": "NY",
-      "latitude": 41.3236395,
-      "longitude": -74.1870127
-    },
-    {
-      "city": "Cherry Hill",
-      "state": "NJ",
-      "latitude": 39.9348351,
-      "longitude": -75.0307264
-    },
-    {
-      "city": "Englewood",
-      "state": "NJ",
-      "latitude": 40.8929329,
-      "longitude": -73.9726508
-    },
-    {
-      "city": "Hackensack",
-      "state": "NJ",
-      "latitude": 40.8870781,
-      "longitude": -74.0410667
-    },
-    {
-      "city": "Livingston",
-      "state": "NJ",
-      "latitude": 40.7959335,
-      "longitude": -74.3148713
-    },
-    {
-      "city": "Manahawkin",
-      "state": "NJ",
-      "latitude": 39.690518,
-      "longitude": -74.2486427
-    },
-    {
-      "city": "Millburn",
-      "state": "NJ",
-      "latitude": 40.7244443,
-      "longitude": -74.3069069
-    },
-    {
-      "city": "Montclair",
-      "state": "NJ",
-      "latitude": 40.8164458,
-      "longitude": -74.2210643
-    },
-    {
-      "city": "Morristown",
-      "state": "NJ",
-      "latitude": 40.7970382,
-      "longitude": -74.4809868
-    },
-    {
-      "city": "Newark",
-      "state": "NJ",
-      "latitude": 40.735657,
-      "longitude": -74.1723667
-    },
-    {
-      "city": "New Brunswick",
-      "state": "NJ",
-      "latitude": 40.4936119,
-      "longitude": -74.4436416
-    },
-    {
-      "city": "Parsippany",
-      "state": "NJ",
-      "latitude": 40.8623835,
-      "longitude": -74.4032354
-    },
-    {
-      "city": "Red Bank",
-      "state": "NJ",
-      "latitude": 40.3470543,
-      "longitude": -74.0643065
-    },
-    {
-      "city": "Ridgewood",
-      "state": "NJ",
-      "latitude": 40.9796683,
-      "longitude": -74.1194403
-    },
-    {
-      "city": "Rutherford",
-      "state": "NJ",
-      "latitude": 40.826489,
-      "longitude": -74.1068091
-    },
-    {
-      "city": "Secaucus",
-      "state": "NJ",
-      "latitude": 40.7899291,
-      "longitude": -74.0566735
-    },
-    {
-      "city": "Sparta",
-      "state": "NJ",
-      "latitude": 41.0401567,
-      "longitude": -74.6310081
-    },
-    {
-      "city": "Toms River",
-      "state": "NJ",
-      "latitude": 39.9528389,
-      "longitude": -74.196741
-    },
-    {
-      "city": "Westfield",
-      "state": "NJ",
-      "latitude": 40.651726,
-      "longitude": -74.3483059
-    },
-    {
-      "city": "Westwood",
-      "state": "NJ",
-      "latitude": 40.9912087,
-      "longitude": -74.0326395
-    },
-    {
-      "city": "White Plains",
-      "state": "NY",
-      "latitude": 41.0339862,
-      "longitude": -73.7629097
-    }
-  ],
-  "fields": {
-    "brand": "Salad House",
-    "item5_fee": 40000,
-    "item6_royalty": "6%",
-    "item7_min": 303700,
-    "item7_max": 750500,
-    "item19_avg_sales": 1610000,
-    "item19_n": 11,
-    "item20_outlets_3yr": "5->20",
-    "item20_closures": 0,
-    "territory_exclusive": false,
-    "netWorthRequirement": "not disclosed in FDD",
-    "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
-    "liquidCapitalRequirement": "not disclosed in FDD",
-    "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
-    "pinVerification": {
-      "run_at": "2026-09-15T05:13:26Z",
-      "all_verified": true,
-      "pins_total": 21
-    },
-    "pinsUpdatedAt": "2026-09-15T05:13:26Z"
-  },
+  "item5_fee": 40000,
+  "item6_royalty": "6%",
+  "item7_min": 303700,
+  "item7_max": 750500,
+  "item19_avg_sales": 1610000,
+  "item19_n": 11,
+  "item20_outlets_3yr": "5->20",
+  "item20_closures": 0,
+  "territory_exclusive": false,
   "netWorthRequirement": "not disclosed in FDD",
-  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
+  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
   "liquidCapitalRequirement": "not disclosed in FDD",
-  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
-  "risk_method": "base 0 + closure_risk 0 + legal_risk 0 + fee_risk 6 + transparency_risk 15 + maturity_risk 4.5 = 25.5 -> 26",
-  "risk_components": [
-    {
-      "name": "closure_risk",
-      "weight": 0,
-      "note": "0 closures/terminations in 3 yrs (Item 20)"
-    },
-    {
-      "name": "legal_risk",
-      "weight": 0,
-      "note": "0 litigation, 0 bankruptcy (Item 3, p12)"
-    },
-    {
-      "name": "fee_risk",
-      "weight": 6,
-      "note": "7% burden (6% royalty + 1% brand fund) vs ~10% typical"
-    },
-    {
-      "name": "transparency_risk",
-      "weight": 15,
-      "note": "Item 19 revenue-only, no net profit, cost data missing for 5 of 11 outlets, unaudited franchisee-reported (Item 19, p48)"
-    },
-    {
-      "name": "maturity_risk",
-      "weight": 4.5,
-      "note": "franchising 8.6 yrs, 20 outlets, single-region concentration (NJ/NY)"
-    }
-  ],
-  "risk_source": "live page risk section (weighted penalty model)",
-  "logoUrl": "https://images.getbento.com/accounts/6680decbe97f327de38dbb17999e0fc2/media/images/26766SH_Square_Logo.jpg",
-  "logoUrl_verified_2026_09_14": "HEAD/GET 200, content-type image/*",
-  "risk_method_original_2026_09_14": "closure_risk 0x0.25 + legal_risk 0x0.15 + fee_risk 30x0.20 + transparency_risk 60x0.25 + maturity_risk 30x0.15 = 25.5 -> 26 (weighted penalty model; source: live page risk section)",
-  "territoryType": "non-exclusive",
-  "adFee": "1%",
-  "adFeeNote": "FDD Item 6 (Note 4): Brand Development Fund Fee up to 2% of Gross Sales, currently 1% of monthly Gross Sales; plus Franchisee Directed Local Marketing >= greater of $1,500/mo or 1% of Gross Sales (Note 5). Verified against Salad House 2025 Unit FDD (Florida) text extracted 2026-09-15.",
+  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
   "pinVerification": {
-    "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode of each pin's (city, state); haversine vs stored plotted coords; 50km tolerance",
-    "run_at": "2026-09-15T07:03:08Z",
-    "pins_total": 21,
-    "pins_verified": 20,
-    "pins_mismatch": 1,
-    "pins_unverifiable": 0,
-    "all_verified": false,
-    "per_pin": [
-      {
-        "pin": 0,
-        "city": "Brooklyn",
-        "state": "NY",
-        "stored": [
-          41.3236395,
-          -74.1870127
-        ],
-        "geocoded": [
-          40.652601,
-          -73.949721
-        ],
-        "geocode_query": "Brooklyn, New York, United States",
-        "distance_km": 77.23,
-        "status": "EXCEPTION (documented)"
-      },
-      {
-        "pin": 1,
-        "city": "Cherry Hill",
-        "state": "NJ",
-        "stored": [
-          39.9348351,
-          -75.0307264
-        ],
-        "geocoded": [
-          39.934835,
-          -75.030726
-        ],
-        "geocode_query": "Cherry Hill, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 2,
-        "city": "Englewood",
-        "state": "NJ",
-        "stored": [
-          40.8929329,
-          -73.9726508
-        ],
-        "geocoded": [
-          40.892933,
-          -73.972651
-        ],
-        "geocode_query": "Englewood, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 3,
-        "city": "Hackensack",
-        "state": "NJ",
-        "stored": [
-          40.8870781,
-          -74.0410667
-        ],
-        "geocoded": [
-          40.887078,
-          -74.041067
-        ],
-        "geocode_query": "Hackensack, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 4,
-        "city": "Livingston",
-        "state": "NJ",
-        "stored": [
-          40.7959335,
-          -74.3148713
-        ],
-        "geocoded": [
-          40.795933,
-          -74.314871
-        ],
-        "geocode_query": "Livingston, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 5,
-        "city": "Manahawkin",
-        "state": "NJ",
-        "stored": [
-          39.690518,
-          -74.2486427
-        ],
-        "geocoded": [
-          39.690518,
-          -74.248643
-        ],
-        "geocode_query": "Manahawkin, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 6,
-        "city": "Millburn",
-        "state": "NJ",
-        "stored": [
-          40.7244443,
-          -74.3069069
-        ],
-        "geocoded": [
-          40.724444,
-          -74.306907
-        ],
-        "geocode_query": "Millburn, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 7,
-        "city": "Montclair",
-        "state": "NJ",
-        "stored": [
-          40.8164458,
-          -74.2210643
-        ],
-        "geocoded": [
-          40.816446,
-          -74.221064
-        ],
-        "geocode_query": "Montclair, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 8,
-        "city": "Morristown",
-        "state": "NJ",
-        "stored": [
-          40.7970382,
-          -74.4809868
-        ],
-        "geocoded": [
-          40.797038,
-          -74.480987
-        ],
-        "geocode_query": "Morristown, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 9,
-        "city": "Newark",
-        "state": "NJ",
-        "stored": [
-          40.735657,
-          -74.1723667
-        ],
-        "geocoded": [
-          40.735657,
-          -74.172367
-        ],
-        "geocode_query": "Newark, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 10,
-        "city": "New Brunswick",
-        "state": "NJ",
-        "stored": [
-          40.4936119,
-          -74.4436416
-        ],
-        "geocoded": [
-          40.493612,
-          -74.443642
-        ],
-        "geocode_query": "New Brunswick, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 11,
-        "city": "Parsippany",
-        "state": "NJ",
-        "stored": [
-          40.8623835,
-          -74.4032354
-        ],
-        "geocoded": [
-          40.862383,
-          -74.403235
-        ],
-        "geocode_query": "Parsippany, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 12,
-        "city": "Red Bank",
-        "state": "NJ",
-        "stored": [
-          40.3470543,
-          -74.0643065
-        ],
-        "geocoded": [
-          40.347054,
-          -74.064307
-        ],
-        "geocode_query": "Red Bank, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 13,
-        "city": "Ridgewood",
-        "state": "NJ",
-        "stored": [
-          40.9796683,
-          -74.1194403
-        ],
-        "geocoded": [
-          40.979668,
-          -74.11944
-        ],
-        "geocode_query": "Ridgewood, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 14,
-        "city": "Rutherford",
-        "state": "NJ",
-        "stored": [
-          40.826489,
-          -74.1068091
-        ],
-        "geocoded": [
-          40.826489,
-          -74.106809
-        ],
-        "geocode_query": "Rutherford, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 15,
-        "city": "Secaucus",
-        "state": "NJ",
-        "stored": [
-          40.7899291,
-          -74.0566735
-        ],
-        "geocoded": [
-          40.789929,
-          -74.056674
-        ],
-        "geocode_query": "Secaucus, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 16,
-        "city": "Sparta",
-        "state": "NJ",
-        "stored": [
-          41.0401567,
-          -74.6310081
-        ],
-        "geocoded": [
-          41.040157,
-          -74.631008
-        ],
-        "geocode_query": "Sparta, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 17,
-        "city": "Toms River",
-        "state": "NJ",
-        "stored": [
-          39.9528389,
-          -74.196741
-        ],
-        "geocoded": [
-          39.952839,
-          -74.196741
-        ],
-        "geocode_query": "Toms River, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 18,
-        "city": "Westfield",
-        "state": "NJ",
-        "stored": [
-          40.651726,
-          -74.3483059
-        ],
-        "geocoded": [
-          40.651726,
-          -74.348306
-        ],
-        "geocode_query": "Westfield, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 19,
-        "city": "Westwood",
-        "state": "NJ",
-        "stored": [
-          40.9912087,
-          -74.0326395
-        ],
-        "geocoded": [
-          40.991209,
-          -74.03264
-        ],
-        "geocode_query": "Westwood, New Jersey, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 20,
-        "city": "White Plains",
-        "state": "NY",
-        "stored": [
-          41.0339862,
-          -73.7629097
-        ],
-        "geocoded": [
-          41.033986,
-          -73.76291
-        ],
-        "geocode_query": "White Plains, New York, United States",
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      }
-    ],
-    "documented_exceptions": [
-      {
-        "pin": 0,
-        "label": "Brooklyn, NY",
-        "reason": "label geocodes to the NYC borough centroid (~40.65,-73.95) but stored coords (41.3236395,-74.1870127) are 77.23km away (upstate NY); no street address in record to resolve. Requires source address verification. Not fabricated \u2014 exception documented, not waived."
-      }
-    ]
+   "run_at": "2026-09-15T05:13:26Z",
+   "all_verified": true,
+   "pins_total": 21
   },
-  "pinsUpdatedAt": "2026-09-15T07:03:08Z"
+  "pinsUpdatedAt": "2026-09-15T05:13:26Z",
+  "brand_display_name": {
+   "value": "Salad House",
+   "type": "absolute",
+   "item": "FDD cover: Salad House Franchising, LLC"
+  }
+ },
+ "netWorthRequirement": "not disclosed in FDD",
+ "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
+ "liquidCapitalRequirement": "not disclosed in FDD",
+ "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
+ "risk_method": "base 0 + closure_risk 0 + legal_risk 0 + fee_risk 6 + transparency_risk 15 + maturity_risk 4.5 = 25.5 -> 26",
+ "risk_components": [
+  {
+   "name": "closure_risk",
+   "weight": 0,
+   "note": "0 closures/terminations in 3 yrs (Item 20)"
+  },
+  {
+   "name": "legal_risk",
+   "weight": 0,
+   "note": "0 litigation, 0 bankruptcy (Item 3, p12)"
+  },
+  {
+   "name": "fee_risk",
+   "weight": 6,
+   "note": "7% burden (6% royalty + 1% brand fund) vs ~10% typical"
+  },
+  {
+   "name": "transparency_risk",
+   "weight": 15,
+   "note": "Item 19 revenue-only, no net profit, cost data missing for 5 of 11 outlets, unaudited franchisee-reported (Item 19, p48)"
+  },
+  {
+   "name": "maturity_risk",
+   "weight": 4.5,
+   "note": "franchising 8.6 yrs, 20 outlets, single-region concentration (NJ/NY)"
+  }
+ ],
+ "risk_source": "live page risk section (weighted penalty model)",
+ "logoUrl": "https://images.getbento.com/accounts/6680decbe97f327de38dbb17999e0fc2/media/images/26766SH_Square_Logo.jpg",
+ "logoUrl_verified_2026_09_14": "HEAD/GET 200, content-type image/*",
+ "risk_method_original_2026_09_14": "closure_risk 0x0.25 + legal_risk 0x0.15 + fee_risk 30x0.20 + transparency_risk 60x0.25 + maturity_risk 30x0.15 = 25.5 -> 26 (weighted penalty model; source: live page risk section)",
+ "territoryType": "non-exclusive",
+ "adFee": "1%",
+ "adFeeNote": "FDD Item 6 (Note 4): Brand Development Fund Fee up to 2% of Gross Sales, currently 1% of monthly Gross Sales; plus Franchisee Directed Local Marketing >= greater of $1,500/mo or 1% of Gross Sales (Note 5). Verified against Salad House 2025 Unit FDD (Florida) text extracted 2026-09-15.",
+ "pinVerification": {
+  "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode of each pin's (city, state); haversine vs stored plotted coords; 50km tolerance",
+  "run_at": "2026-09-15T07:03:08Z",
+  "pins_total": 21,
+  "pins_verified": 20,
+  "pins_mismatch": 1,
+  "pins_unverifiable": 0,
+  "all_verified": false,
+  "per_pin": [
+   {
+    "pin": 0,
+    "city": "Brooklyn",
+    "state": "NY",
+    "stored": [
+     41.3236395,
+     -74.1870127
+    ],
+    "geocoded": [
+     40.652601,
+     -73.949721
+    ],
+    "geocode_query": "Brooklyn, New York, United States",
+    "distance_km": 77.23,
+    "status": "EXCEPTION (documented)"
+   },
+   {
+    "pin": 1,
+    "city": "Cherry Hill",
+    "state": "NJ",
+    "stored": [
+     39.9348351,
+     -75.0307264
+    ],
+    "geocoded": [
+     39.934835,
+     -75.030726
+    ],
+    "geocode_query": "Cherry Hill, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 2,
+    "city": "Englewood",
+    "state": "NJ",
+    "stored": [
+     40.8929329,
+     -73.9726508
+    ],
+    "geocoded": [
+     40.892933,
+     -73.972651
+    ],
+    "geocode_query": "Englewood, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 3,
+    "city": "Hackensack",
+    "state": "NJ",
+    "stored": [
+     40.8870781,
+     -74.0410667
+    ],
+    "geocoded": [
+     40.887078,
+     -74.041067
+    ],
+    "geocode_query": "Hackensack, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 4,
+    "city": "Livingston",
+    "state": "NJ",
+    "stored": [
+     40.7959335,
+     -74.3148713
+    ],
+    "geocoded": [
+     40.795933,
+     -74.314871
+    ],
+    "geocode_query": "Livingston, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 5,
+    "city": "Manahawkin",
+    "state": "NJ",
+    "stored": [
+     39.690518,
+     -74.2486427
+    ],
+    "geocoded": [
+     39.690518,
+     -74.248643
+    ],
+    "geocode_query": "Manahawkin, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 6,
+    "city": "Millburn",
+    "state": "NJ",
+    "stored": [
+     40.7244443,
+     -74.3069069
+    ],
+    "geocoded": [
+     40.724444,
+     -74.306907
+    ],
+    "geocode_query": "Millburn, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 7,
+    "city": "Montclair",
+    "state": "NJ",
+    "stored": [
+     40.8164458,
+     -74.2210643
+    ],
+    "geocoded": [
+     40.816446,
+     -74.221064
+    ],
+    "geocode_query": "Montclair, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 8,
+    "city": "Morristown",
+    "state": "NJ",
+    "stored": [
+     40.7970382,
+     -74.4809868
+    ],
+    "geocoded": [
+     40.797038,
+     -74.480987
+    ],
+    "geocode_query": "Morristown, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 9,
+    "city": "Newark",
+    "state": "NJ",
+    "stored": [
+     40.735657,
+     -74.1723667
+    ],
+    "geocoded": [
+     40.735657,
+     -74.172367
+    ],
+    "geocode_query": "Newark, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 10,
+    "city": "New Brunswick",
+    "state": "NJ",
+    "stored": [
+     40.4936119,
+     -74.4436416
+    ],
+    "geocoded": [
+     40.493612,
+     -74.443642
+    ],
+    "geocode_query": "New Brunswick, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 11,
+    "city": "Parsippany",
+    "state": "NJ",
+    "stored": [
+     40.8623835,
+     -74.4032354
+    ],
+    "geocoded": [
+     40.862383,
+     -74.403235
+    ],
+    "geocode_query": "Parsippany, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 12,
+    "city": "Red Bank",
+    "state": "NJ",
+    "stored": [
+     40.3470543,
+     -74.0643065
+    ],
+    "geocoded": [
+     40.347054,
+     -74.064307
+    ],
+    "geocode_query": "Red Bank, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 13,
+    "city": "Ridgewood",
+    "state": "NJ",
+    "stored": [
+     40.9796683,
+     -74.1194403
+    ],
+    "geocoded": [
+     40.979668,
+     -74.11944
+    ],
+    "geocode_query": "Ridgewood, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 14,
+    "city": "Rutherford",
+    "state": "NJ",
+    "stored": [
+     40.826489,
+     -74.1068091
+    ],
+    "geocoded": [
+     40.826489,
+     -74.106809
+    ],
+    "geocode_query": "Rutherford, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 15,
+    "city": "Secaucus",
+    "state": "NJ",
+    "stored": [
+     40.7899291,
+     -74.0566735
+    ],
+    "geocoded": [
+     40.789929,
+     -74.056674
+    ],
+    "geocode_query": "Secaucus, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 16,
+    "city": "Sparta",
+    "state": "NJ",
+    "stored": [
+     41.0401567,
+     -74.6310081
+    ],
+    "geocoded": [
+     41.040157,
+     -74.631008
+    ],
+    "geocode_query": "Sparta, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 17,
+    "city": "Toms River",
+    "state": "NJ",
+    "stored": [
+     39.9528389,
+     -74.196741
+    ],
+    "geocoded": [
+     39.952839,
+     -74.196741
+    ],
+    "geocode_query": "Toms River, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 18,
+    "city": "Westfield",
+    "state": "NJ",
+    "stored": [
+     40.651726,
+     -74.3483059
+    ],
+    "geocoded": [
+     40.651726,
+     -74.348306
+    ],
+    "geocode_query": "Westfield, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 19,
+    "city": "Westwood",
+    "state": "NJ",
+    "stored": [
+     40.9912087,
+     -74.0326395
+    ],
+    "geocoded": [
+     40.991209,
+     -74.03264
+    ],
+    "geocode_query": "Westwood, New Jersey, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   },
+   {
+    "pin": 20,
+    "city": "White Plains",
+    "state": "NY",
+    "stored": [
+     41.0339862,
+     -73.7629097
+    ],
+    "geocoded": [
+     41.033986,
+     -73.76291
+    ],
+    "geocode_query": "White Plains, New York, United States",
+    "distance_km": 0.0,
+    "status": "VERIFIED"
+   }
+  ],
+  "documented_exceptions": [
+   {
+    "pin": 0,
+    "label": "Brooklyn, NY",
+    "reason": "label geocodes to the NYC borough centroid (~40.65,-73.95) but stored coords (41.3236395,-74.1870127) are 77.23km away (upstate NY); no street address in record to resolve. Requires source address verification. Not fabricated — exception documented, not waived."
+   }
+  ]
+ },
+ "pinsUpdatedAt": "2026-09-15T07:03:08Z"
 }
