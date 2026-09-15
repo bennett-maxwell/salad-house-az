@@ -26,8 +26,8 @@
     {
       "city": "Brooklyn",
       "state": "NY",
-      "latitude": 41.3236395,
-      "longitude": -74.1870127
+      "latitude": 40.5946458,
+      "longitude": -73.9508462
     },
     {
       "city": "Cherry Hill",
@@ -162,45 +162,43 @@
     "item20_closures": 0,
     "territory_exclusive": false,
     "netWorthRequirement": "not disclosed in FDD",
-    "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
+    "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
     "liquidCapitalRequirement": "not disclosed in FDD",
-    "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
+    "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
     "pinVerification": {
-      "run_at": "2026-09-13T01:48:54Z",
+      "run_at": "2026-09-15T05:13:26Z",
       "all_verified": true,
       "pins_total": 21
     },
-    "pinsUpdatedAt": "2026-09-13T01:48:54Z"
+    "pinsUpdatedAt": "2026-09-15T05:13:26Z"
   },
   "netWorthRequirement": "not disclosed in FDD",
-  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
+  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
   "liquidCapitalRequirement": "not disclosed in FDD",
-  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
+  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
   "pinVerification": {
-    "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode; 50km tolerance",
-    "run_utc": "2026-09-15T02:50:45.867283+00:00",
+    "method": "Nominatim forward-geocode of each unique pin (city, state); haversine vs stored coords; tolerance 50.0km",
+    "run_at": "2026-09-15T05:13:26Z",
     "pins_total": 21,
-    "pins_verified": 20,
+    "pins_verified": 21,
+    "pins_unverifiable": 0,
     "pins_mismatch": 0,
-    "pins_unverifiable": 1,
-    "all_verified": false,
+    "all_verified": true,
     "per_pin": [
       {
         "pin": 0,
         "city": "Brooklyn",
         "state": "NY",
         "stored": [
-          41.3236395,
-          -74.1870127
+          40.5946458,
+          -73.9508462
         ],
         "geocoded": [
-          40.652601,
-          -73.949721
+          40.6526006,
+          -73.9497211
         ],
-        "geocode_query": "Brooklyn, New York, United States",
-        "distance_km": 77.23,
-        "status": "UNVERIFIABLE",
-        "note": "Genuine ambiguity: label 'Brooklyn, NY' geocodes to NYC borough (40.65,-73.95) but stored coords (41.32,-74.19) are 77km away in upstate NY. No street address in record to resolve which is correct. Requires source address verification."
+        "distance_km": 6.44,
+        "status": "VERIFIED"
       },
       {
         "pin": 1,
@@ -211,10 +209,9 @@
           -75.0307264
         ],
         "geocoded": [
-          39.934835,
-          -75.030726
+          39.9348351,
+          -75.0307264
         ],
-        "geocode_query": "Cherry Hill, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -227,10 +224,9 @@
           -73.9726508
         ],
         "geocoded": [
-          40.892933,
-          -73.972651
+          40.8929329,
+          -73.9726508
         ],
-        "geocode_query": "Englewood, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -243,10 +239,9 @@
           -74.0410667
         ],
         "geocoded": [
-          40.887078,
-          -74.041067
+          40.8870781,
+          -74.0410667
         ],
-        "geocode_query": "Hackensack, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -259,10 +254,9 @@
           -74.3148713
         ],
         "geocoded": [
-          40.795933,
-          -74.314871
+          40.7959335,
+          -74.3148713
         ],
-        "geocode_query": "Livingston, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -275,11 +269,10 @@
           -74.2486427
         ],
         "geocoded": [
-          39.690518,
-          -74.248643
+          39.695397,
+          -74.2587527
         ],
-        "geocode_query": "Manahawkin, New Jersey, United States",
-        "distance_km": 0.0,
+        "distance_km": 1.02,
         "status": "VERIFIED"
       },
       {
@@ -291,10 +284,9 @@
           -74.3069069
         ],
         "geocoded": [
-          40.724444,
-          -74.306907
+          40.7244443,
+          -74.3069069
         ],
-        "geocode_query": "Millburn, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -307,10 +299,9 @@
           -74.2210643
         ],
         "geocoded": [
-          40.816446,
-          -74.221064
+          40.8164458,
+          -74.2210643
         ],
-        "geocode_query": "Montclair, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -323,10 +314,9 @@
           -74.4809868
         ],
         "geocoded": [
-          40.797038,
-          -74.480987
+          40.7970382,
+          -74.4809868
         ],
-        "geocode_query": "Morristown, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -340,9 +330,8 @@
         ],
         "geocoded": [
           40.735657,
-          -74.172367
+          -74.1723667
         ],
-        "geocode_query": "Newark, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -355,10 +344,9 @@
           -74.4436416
         ],
         "geocoded": [
-          40.493612,
-          -74.443642
+          40.4936119,
+          -74.4436416
         ],
-        "geocode_query": "New Brunswick, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -371,11 +359,10 @@
           -74.4032354
         ],
         "geocoded": [
-          40.862383,
-          -74.403235
+          40.8578772,
+          -74.4259866
         ],
-        "geocode_query": "Parsippany, New Jersey, United States",
-        "distance_km": 0.0,
+        "distance_km": 1.98,
         "status": "VERIFIED"
       },
       {
@@ -387,10 +374,9 @@
           -74.0643065
         ],
         "geocoded": [
-          40.347054,
-          -74.064307
+          40.3470543,
+          -74.0643065
         ],
-        "geocode_query": "Red Bank, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -403,10 +389,9 @@
           -74.1194403
         ],
         "geocoded": [
-          40.979668,
-          -74.11944
+          40.9796683,
+          -74.1194403
         ],
-        "geocode_query": "Ridgewood, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -420,9 +405,8 @@
         ],
         "geocoded": [
           40.826489,
-          -74.106809
+          -74.1068091
         ],
-        "geocode_query": "Rutherford, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -435,10 +419,9 @@
           -74.0566735
         ],
         "geocoded": [
-          40.789929,
-          -74.056674
+          40.7899291,
+          -74.0566735
         ],
-        "geocode_query": "Secaucus, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -451,10 +434,9 @@
           -74.6310081
         ],
         "geocoded": [
-          41.040157,
-          -74.631008
+          41.0401567,
+          -74.6310081
         ],
-        "geocode_query": "Sparta, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -467,10 +449,9 @@
           -74.196741
         ],
         "geocoded": [
-          39.952839,
+          39.9528389,
           -74.196741
         ],
-        "geocode_query": "Toms River, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -484,9 +465,8 @@
         ],
         "geocoded": [
           40.651726,
-          -74.348306
+          -74.3483059
         ],
-        "geocode_query": "Westfield, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -499,10 +479,9 @@
           -74.0326395
         ],
         "geocoded": [
-          40.991209,
-          -74.03264
+          40.9912087,
+          -74.0326395
         ],
-        "geocode_query": "Westwood, New Jersey, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       },
@@ -515,16 +494,14 @@
           -73.7629097
         ],
         "geocoded": [
-          41.033986,
-          -73.76291
+          41.0339862,
+          -73.7629097
         ],
-        "geocode_query": "White Plains, New York, United States",
         "distance_km": 0.0,
         "status": "VERIFIED"
       }
     ]
   },
-  "pinsUpdatedAt": "2026-09-15T02:50:45.867283+00:00",
   "risk_method": "base 0 + closure_risk 0 + legal_risk 0 + fee_risk 6 + transparency_risk 15 + maturity_risk 4.5 = 25.5 -> 26",
   "risk_components": [
     {
@@ -556,5 +533,9 @@
   "risk_source": "live page risk section (weighted penalty model)",
   "logoUrl": "https://images.getbento.com/accounts/6680decbe97f327de38dbb17999e0fc2/media/images/26766SH_Square_Logo.jpg",
   "logoUrl_verified_2026_09_14": "HEAD/GET 200, content-type image/*",
-  "risk_method_original_2026_09_14": "closure_risk 0x0.25 + legal_risk 0x0.15 + fee_risk 30x0.20 + transparency_risk 60x0.25 + maturity_risk 30x0.15 = 25.5 -> 26 (weighted penalty model; source: live page risk section)"
+  "risk_method_original_2026_09_14": "closure_risk 0x0.25 + legal_risk 0x0.15 + fee_risk 30x0.20 + transparency_risk 60x0.25 + maturity_risk 30x0.15 = 25.5 -> 26 (weighted penalty model; source: live page risk section)",
+  "territoryType": "non-exclusive",
+  "adFee": "1%",
+  "adFeeNote": "FDD Item 6 (Note 4): Brand Development Fund Fee up to 2% of Gross Sales, currently 1% of monthly Gross Sales; plus Franchisee Directed Local Marketing >= greater of $1,500/mo or 1% of Gross Sales (Note 5). Verified against Salad House 2025 Unit FDD (Florida) text extracted 2026-09-15.",
+  "pinsUpdatedAt": "2026-09-15T05:13:26Z"
 }
