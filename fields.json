@@ -17,7 +17,7 @@
  "websiteUrl": "https://www.thesaladhouse.com",
  "yearFounded": 2011,
  "fddYear": 2025,
- "territoryDescription": "Non-exclusive Designated Territory defined after site approval; ~3-mile rural / ~7-block urban radius; franchisor reserves broad Reserved Rights. Item 12, FDD pp34-35.",
+ "territoryDescription": "Non-exclusive Designated Territory defined after site approval; ~3-mile rural / ~7-block urban radius; franchisor reserves broad Reserved Rights. Item 12, FDD pp34-35. System: 21 outlets (FDD Item 20 Table 1: 20 at 12/31/2024 = 18 franchised + 2 company-owned; White Plains opened post-FDD).",
  "item12": "non-exclusive",
  "item20PinCount": 21,
  "hq_source": "fdd-item-1: franchisor Salad House Franchising, LLC principal place of business = 133 Prospect Street, Suite 1, Westfield, New Jersey 07092 (Item 1 'The Franchisor'; also FDD cover contact block). Millburn NJ 07041 (343 Millburn Ave) is the original restaurant outlet (Item 20), not the franchisor HQ. Verified in salad-schema/fdd.txt lines 341-342 / item1-2.txt lines 11-12.",
