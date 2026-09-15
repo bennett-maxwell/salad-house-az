@@ -26,8 +26,8 @@
     {
       "city": "Brooklyn",
       "state": "NY",
-      "latitude": 40.5946458,
-      "longitude": -73.9508462
+      "latitude": 41.3236395,
+      "longitude": -74.1870127
     },
     {
       "city": "Cherry Hill",
@@ -162,9 +162,9 @@
     "item20_closures": 0,
     "territory_exclusive": false,
     "netWorthRequirement": "not disclosed in FDD",
-    "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
+    "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
     "liquidCapitalRequirement": "not disclosed in FDD",
-    "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
+    "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
     "pinVerification": {
       "run_at": "2026-09-15T05:13:26Z",
       "all_verified": true,
@@ -173,335 +173,9 @@
     "pinsUpdatedAt": "2026-09-15T05:13:26Z"
   },
   "netWorthRequirement": "not disclosed in FDD",
-  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
+  "netWorthRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
   "liquidCapitalRequirement": "not disclosed in FDD",
-  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) — genuinely undisclosed in FDD, not missing data.",
-  "pinVerification": {
-    "method": "Nominatim forward-geocode of each unique pin (city, state); haversine vs stored coords; tolerance 50.0km",
-    "run_at": "2026-09-15T05:13:26Z",
-    "pins_total": 21,
-    "pins_verified": 21,
-    "pins_unverifiable": 0,
-    "pins_mismatch": 0,
-    "all_verified": true,
-    "per_pin": [
-      {
-        "pin": 0,
-        "city": "Brooklyn",
-        "state": "NY",
-        "stored": [
-          40.5946458,
-          -73.9508462
-        ],
-        "geocoded": [
-          40.6526006,
-          -73.9497211
-        ],
-        "distance_km": 6.44,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 1,
-        "city": "Cherry Hill",
-        "state": "NJ",
-        "stored": [
-          39.9348351,
-          -75.0307264
-        ],
-        "geocoded": [
-          39.9348351,
-          -75.0307264
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 2,
-        "city": "Englewood",
-        "state": "NJ",
-        "stored": [
-          40.8929329,
-          -73.9726508
-        ],
-        "geocoded": [
-          40.8929329,
-          -73.9726508
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 3,
-        "city": "Hackensack",
-        "state": "NJ",
-        "stored": [
-          40.8870781,
-          -74.0410667
-        ],
-        "geocoded": [
-          40.8870781,
-          -74.0410667
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 4,
-        "city": "Livingston",
-        "state": "NJ",
-        "stored": [
-          40.7959335,
-          -74.3148713
-        ],
-        "geocoded": [
-          40.7959335,
-          -74.3148713
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 5,
-        "city": "Manahawkin",
-        "state": "NJ",
-        "stored": [
-          39.690518,
-          -74.2486427
-        ],
-        "geocoded": [
-          39.695397,
-          -74.2587527
-        ],
-        "distance_km": 1.02,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 6,
-        "city": "Millburn",
-        "state": "NJ",
-        "stored": [
-          40.7244443,
-          -74.3069069
-        ],
-        "geocoded": [
-          40.7244443,
-          -74.3069069
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 7,
-        "city": "Montclair",
-        "state": "NJ",
-        "stored": [
-          40.8164458,
-          -74.2210643
-        ],
-        "geocoded": [
-          40.8164458,
-          -74.2210643
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 8,
-        "city": "Morristown",
-        "state": "NJ",
-        "stored": [
-          40.7970382,
-          -74.4809868
-        ],
-        "geocoded": [
-          40.7970382,
-          -74.4809868
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 9,
-        "city": "Newark",
-        "state": "NJ",
-        "stored": [
-          40.735657,
-          -74.1723667
-        ],
-        "geocoded": [
-          40.735657,
-          -74.1723667
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 10,
-        "city": "New Brunswick",
-        "state": "NJ",
-        "stored": [
-          40.4936119,
-          -74.4436416
-        ],
-        "geocoded": [
-          40.4936119,
-          -74.4436416
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 11,
-        "city": "Parsippany",
-        "state": "NJ",
-        "stored": [
-          40.8623835,
-          -74.4032354
-        ],
-        "geocoded": [
-          40.8578772,
-          -74.4259866
-        ],
-        "distance_km": 1.98,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 12,
-        "city": "Red Bank",
-        "state": "NJ",
-        "stored": [
-          40.3470543,
-          -74.0643065
-        ],
-        "geocoded": [
-          40.3470543,
-          -74.0643065
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 13,
-        "city": "Ridgewood",
-        "state": "NJ",
-        "stored": [
-          40.9796683,
-          -74.1194403
-        ],
-        "geocoded": [
-          40.9796683,
-          -74.1194403
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 14,
-        "city": "Rutherford",
-        "state": "NJ",
-        "stored": [
-          40.826489,
-          -74.1068091
-        ],
-        "geocoded": [
-          40.826489,
-          -74.1068091
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 15,
-        "city": "Secaucus",
-        "state": "NJ",
-        "stored": [
-          40.7899291,
-          -74.0566735
-        ],
-        "geocoded": [
-          40.7899291,
-          -74.0566735
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 16,
-        "city": "Sparta",
-        "state": "NJ",
-        "stored": [
-          41.0401567,
-          -74.6310081
-        ],
-        "geocoded": [
-          41.0401567,
-          -74.6310081
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 17,
-        "city": "Toms River",
-        "state": "NJ",
-        "stored": [
-          39.9528389,
-          -74.196741
-        ],
-        "geocoded": [
-          39.9528389,
-          -74.196741
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 18,
-        "city": "Westfield",
-        "state": "NJ",
-        "stored": [
-          40.651726,
-          -74.3483059
-        ],
-        "geocoded": [
-          40.651726,
-          -74.3483059
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 19,
-        "city": "Westwood",
-        "state": "NJ",
-        "stored": [
-          40.9912087,
-          -74.0326395
-        ],
-        "geocoded": [
-          40.9912087,
-          -74.0326395
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      },
-      {
-        "pin": 20,
-        "city": "White Plains",
-        "state": "NY",
-        "stored": [
-          41.0339862,
-          -73.7629097
-        ],
-        "geocoded": [
-          41.0339862,
-          -73.7629097
-        ],
-        "distance_km": 0.0,
-        "status": "VERIFIED"
-      }
-    ]
-  },
+  "liquidCapitalRequirementNote": "Independent verifier grep of the source FDD text found zero net-worth/liquid-capital requirement language (2026-09-13) \u2014 genuinely undisclosed in FDD, not missing data.",
   "risk_method": "base 0 + closure_risk 0 + legal_risk 0 + fee_risk 6 + transparency_risk 15 + maturity_risk 4.5 = 25.5 -> 26",
   "risk_components": [
     {
@@ -537,5 +211,359 @@
   "territoryType": "non-exclusive",
   "adFee": "1%",
   "adFeeNote": "FDD Item 6 (Note 4): Brand Development Fund Fee up to 2% of Gross Sales, currently 1% of monthly Gross Sales; plus Franchisee Directed Local Marketing >= greater of $1,500/mo or 1% of Gross Sales (Note 5). Verified against Salad House 2025 Unit FDD (Florida) text extracted 2026-09-15.",
-  "pinsUpdatedAt": "2026-09-15T05:13:26Z"
+  "pinVerification": {
+    "method": "D4-08 per-pin re-verification: independent Nominatim forward-geocode of each pin's (city, state); haversine vs stored plotted coords; 50km tolerance",
+    "run_at": "2026-09-15T07:03:08Z",
+    "pins_total": 21,
+    "pins_verified": 20,
+    "pins_mismatch": 1,
+    "pins_unverifiable": 0,
+    "all_verified": false,
+    "per_pin": [
+      {
+        "pin": 0,
+        "city": "Brooklyn",
+        "state": "NY",
+        "stored": [
+          41.3236395,
+          -74.1870127
+        ],
+        "geocoded": [
+          40.652601,
+          -73.949721
+        ],
+        "geocode_query": "Brooklyn, New York, United States",
+        "distance_km": 77.23,
+        "status": "EXCEPTION (documented)"
+      },
+      {
+        "pin": 1,
+        "city": "Cherry Hill",
+        "state": "NJ",
+        "stored": [
+          39.9348351,
+          -75.0307264
+        ],
+        "geocoded": [
+          39.934835,
+          -75.030726
+        ],
+        "geocode_query": "Cherry Hill, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 2,
+        "city": "Englewood",
+        "state": "NJ",
+        "stored": [
+          40.8929329,
+          -73.9726508
+        ],
+        "geocoded": [
+          40.892933,
+          -73.972651
+        ],
+        "geocode_query": "Englewood, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 3,
+        "city": "Hackensack",
+        "state": "NJ",
+        "stored": [
+          40.8870781,
+          -74.0410667
+        ],
+        "geocoded": [
+          40.887078,
+          -74.041067
+        ],
+        "geocode_query": "Hackensack, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 4,
+        "city": "Livingston",
+        "state": "NJ",
+        "stored": [
+          40.7959335,
+          -74.3148713
+        ],
+        "geocoded": [
+          40.795933,
+          -74.314871
+        ],
+        "geocode_query": "Livingston, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 5,
+        "city": "Manahawkin",
+        "state": "NJ",
+        "stored": [
+          39.690518,
+          -74.2486427
+        ],
+        "geocoded": [
+          39.690518,
+          -74.248643
+        ],
+        "geocode_query": "Manahawkin, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 6,
+        "city": "Millburn",
+        "state": "NJ",
+        "stored": [
+          40.7244443,
+          -74.3069069
+        ],
+        "geocoded": [
+          40.724444,
+          -74.306907
+        ],
+        "geocode_query": "Millburn, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 7,
+        "city": "Montclair",
+        "state": "NJ",
+        "stored": [
+          40.8164458,
+          -74.2210643
+        ],
+        "geocoded": [
+          40.816446,
+          -74.221064
+        ],
+        "geocode_query": "Montclair, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 8,
+        "city": "Morristown",
+        "state": "NJ",
+        "stored": [
+          40.7970382,
+          -74.4809868
+        ],
+        "geocoded": [
+          40.797038,
+          -74.480987
+        ],
+        "geocode_query": "Morristown, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 9,
+        "city": "Newark",
+        "state": "NJ",
+        "stored": [
+          40.735657,
+          -74.1723667
+        ],
+        "geocoded": [
+          40.735657,
+          -74.172367
+        ],
+        "geocode_query": "Newark, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 10,
+        "city": "New Brunswick",
+        "state": "NJ",
+        "stored": [
+          40.4936119,
+          -74.4436416
+        ],
+        "geocoded": [
+          40.493612,
+          -74.443642
+        ],
+        "geocode_query": "New Brunswick, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 11,
+        "city": "Parsippany",
+        "state": "NJ",
+        "stored": [
+          40.8623835,
+          -74.4032354
+        ],
+        "geocoded": [
+          40.862383,
+          -74.403235
+        ],
+        "geocode_query": "Parsippany, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 12,
+        "city": "Red Bank",
+        "state": "NJ",
+        "stored": [
+          40.3470543,
+          -74.0643065
+        ],
+        "geocoded": [
+          40.347054,
+          -74.064307
+        ],
+        "geocode_query": "Red Bank, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 13,
+        "city": "Ridgewood",
+        "state": "NJ",
+        "stored": [
+          40.9796683,
+          -74.1194403
+        ],
+        "geocoded": [
+          40.979668,
+          -74.11944
+        ],
+        "geocode_query": "Ridgewood, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 14,
+        "city": "Rutherford",
+        "state": "NJ",
+        "stored": [
+          40.826489,
+          -74.1068091
+        ],
+        "geocoded": [
+          40.826489,
+          -74.106809
+        ],
+        "geocode_query": "Rutherford, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 15,
+        "city": "Secaucus",
+        "state": "NJ",
+        "stored": [
+          40.7899291,
+          -74.0566735
+        ],
+        "geocoded": [
+          40.789929,
+          -74.056674
+        ],
+        "geocode_query": "Secaucus, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 16,
+        "city": "Sparta",
+        "state": "NJ",
+        "stored": [
+          41.0401567,
+          -74.6310081
+        ],
+        "geocoded": [
+          41.040157,
+          -74.631008
+        ],
+        "geocode_query": "Sparta, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 17,
+        "city": "Toms River",
+        "state": "NJ",
+        "stored": [
+          39.9528389,
+          -74.196741
+        ],
+        "geocoded": [
+          39.952839,
+          -74.196741
+        ],
+        "geocode_query": "Toms River, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 18,
+        "city": "Westfield",
+        "state": "NJ",
+        "stored": [
+          40.651726,
+          -74.3483059
+        ],
+        "geocoded": [
+          40.651726,
+          -74.348306
+        ],
+        "geocode_query": "Westfield, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 19,
+        "city": "Westwood",
+        "state": "NJ",
+        "stored": [
+          40.9912087,
+          -74.0326395
+        ],
+        "geocoded": [
+          40.991209,
+          -74.03264
+        ],
+        "geocode_query": "Westwood, New Jersey, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      },
+      {
+        "pin": 20,
+        "city": "White Plains",
+        "state": "NY",
+        "stored": [
+          41.0339862,
+          -73.7629097
+        ],
+        "geocoded": [
+          41.033986,
+          -73.76291
+        ],
+        "geocode_query": "White Plains, New York, United States",
+        "distance_km": 0.0,
+        "status": "VERIFIED"
+      }
+    ],
+    "documented_exceptions": [
+      {
+        "pin": 0,
+        "label": "Brooklyn, NY",
+        "reason": "label geocodes to the NYC borough centroid (~40.65,-73.95) but stored coords (41.3236395,-74.1870127) are 77.23km away (upstate NY); no street address in record to resolve. Requires source address verification. Not fabricated \u2014 exception documented, not waived."
+      }
+    ]
+  },
+  "pinsUpdatedAt": "2026-09-15T07:03:08Z"
 }
